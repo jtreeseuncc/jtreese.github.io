@@ -1,0 +1,40 @@
+body
+{
+	font-family: tahoma;
+	color: darkred ;
+	background-color: silver;
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+header
+{
+	text-align: center;
+}
+
+h1, h2, h3
+{
+	font-family: Cambria, Cochin, Georgia, serif;
+	text-align: center;
+	line-height: 0px;
+}
+
+a
+{
+	text-decoration: none;
+	color: yellow;
+	font-weight: bold;
+}
+
+a:hover
+{
+	text-decoration: underline;
+	color: aqua;
+}
+
+
+
+nav
+{
+	text-align: center;
+}
