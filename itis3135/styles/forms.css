@@ -1,0 +1,109 @@
+body
+{
+	font-family: Apple Chancery;
+	font-stretch: ultra-expanded;
+	color: #ede613;
+	background-color: #717861;
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+header
+{
+	text-align: left;
+}
+
+h1
+{
+	
+	font-family: Cambria, Cochin, Georgia, serif;
+	text-align: center;
+	line-height: 0px;
+	
+}
+h2
+{
+	text-align: center;
+	padding: 10px;
+	color: red;
+	
+}
+
+h3
+{
+	text-align: center;
+	
+	padding: 25px;
+	padding-left: 0px;
+}
+
+h4
+{
+	text-align: center;
+	
+}
+
+a
+{
+	text-decoration: none;
+	color: #4bd927;
+	font-weight: bold;
+}
+
+a:hover
+{
+	
+	text-decoration: underline;
+	color: aqua;
+}
+
+
+
+nav
+{
+	text-align: center;
+	text-align: center;
+}
+
+.text-boxes
+{
+	text-align: center;
+	padding: 10px;
+	padding-left: 0px;
+	
+}
+input[type=text] {
+   
+    text-align: center;
+    
+}  
+
+.radios
+{
+	text-align: center;
+	background-color: #524240;  
+	padding: 25px;
+	padding-bottom: 25px;
+}
+
+
+.submit
+{
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.location
+{
+	text-align: center;
+	
+	padding: 25px;
+	padding-left: 0px;
+	
+}
+footer
+{
+	
+	text-align: center;
+}

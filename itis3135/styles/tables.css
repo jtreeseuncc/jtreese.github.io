@@ -1,0 +1,89 @@
+
+
+
+body
+{
+	font-family: Lucida Console, Courier New, Monaco;
+	width: 750px;
+	margin: 0 auto;
+	background-color: silver;
+}
+
+table
+{
+	
+	border-collapse: collapse;
+	
+	margin: 20px;
+}
+
+thead
+{	
+	
+	background-color: lightyellow;
+}
+tfoot
+{
+	background-color:lightyellow;
+}
+
+th, td
+{
+	border: 1px solid black;
+	padding: .2em 1em .2em .5em;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.right
+{
+	text-align: right;
+}
+
+tbody tr:nth-child(odd) td
+{
+	background-color: maroon;
+}
+
+tbody tr:nth-child(even) td
+{
+	background-color: pink;
+}
+
+h3
+{
+	color: white;
+	text-align: center;
+	background-color: brown;
+}
+
+figcaption
+{
+	text-align: center;
+	background-color: lightblue;
+}
+
+footer
+{
+	text-align: center;
+}
+
+p{
+	text-align: center;
+}
+
+a:hover
+{
+	text-decoration: underline;
+	color: white;
+}
+
+header
+{
+	margin-top: 20px;
+	font-weight: bold;
+	color: aqua !important;
+	text-align: center;
+	
+	
+}

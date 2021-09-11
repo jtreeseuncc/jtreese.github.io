@@ -1,81 +1,195 @@
 <!DOCTYPE html>
 
-<html land ="en">
+<html lang ="en">
 	<head>
 	<meta charset="UTF-8"/>
-	<link href = "styles/default.css" rel ="stylesheet" type="text/css">
+	<link href = "styles/tables.css" rel ="stylesheet" type="text/css">
 	
 	<title> Jake Treese, 3135, Tables</title>		
 	</head>
 	
+	<header>
+		<a href="https://webpages.uncc.edu/jtreese/itis3135/index.html"> Main Menu</a>
+	</header>
+	
 	<body>
+	
+	<h3> My Tabular Data </h3>
+	<ol>
+	
+		<li>Stephen Malone malones@gmail.com 21</li>
+		<li>Mille White mille@whiteco.com 43</li>
+		<li>James Rivera riveraj@outlook.com 18</li>
+		<li>Bob Smith bobsmith122@bobco.net 9</li>
+		<li>Marquise Blackston mb@blackstone.com 7</li>
+		<li>Randy Travis realrandytravis@music.com 33</li>
+		<li>Paddy Quinones PsAndQs@hotmail.com 1</li>
+	
+	
+	
+	</ol>
+	
+	<h3> Employee Data in Simple Table </h3>
+	
+	<table>
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>E-mail</th>
+				<th class="right">Years of Service</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Stephen Malone</td>
+				<td>malones@gmail.com</td>
+				<td class="right">21</td>
+			</tr>
+			<tr>
+				<td>Mille White</td>
+				<td>mille@whiteco.com</td>
+				<td class="right">43</td>
+			</tr>
+			<tr>
+				<td>James Rivera</td>
+				<td>riveraj@outlook.com</td>
+				<td class="right">18</td>
+			</tr>
+			<tr>
+				<td>Bob Smith</td>
+				<td>bobsmith122@bobco.net</td>
+				<td class="right">9</td>
+			</tr>
+			<tr>
+				<td>Marquise Blackston</td>
+				<td>mb@blackstone.com</td>
+				<td class="right">7</td>
+			</tr>
+			<tr>
+				<td>Randy Travis</td>
+				<td>realrandytravis@music.com</td>
+				<td class="right">33</td>
+			</tr>
+			<tr>
+				<td>Paddy Quinones</td>
+				<td>PsAndQs@hotmail.com</td>
+				<td class="right">1</td>
+			</tr>
+		</tbody>
+	</table>
+	
+	<h3> Employee Data in Complex Table </h3>
+	<figure><figcaption> Employee Info </figcaption></figure>
+	<table>
+		<thead>
+			<tr>
+				<th>Job Title</th>
+				<th>Name</th>
+				<th>E-mail</th>
+				<th class="right">Years of Service</th>
+				<th> Salaries </th>
+			</tr>
+		</thead>
 		
-		
-		<header><h1></h1></header>
-		<nav>
-			<a href="tables.html>Tables</a>
+		<tbody>
 			
+			<tr>
+				<td><b>El Presidente</b></td>
+				<td>Mille White</td>
+				<td>mille@whiteco.com</td>
+				<td class="right">43</td>
+				<td>500,000</td>
+			</tr>
 			
-		</nav>
-		
-		<main>
-			<h2>HTML Tables</h2>
-			
-			<figure>
-					<a href="images/thisisfine.png">
-						<img src="images/thisisfine.png" alt = "sadness"
-								width="400"
-								height="250"
-								/>
-					</a>
-					<figcaption>this is a visual representation of my sanity during covid </figcaption>
-			</figure>
-		<ul>
-			<li>Professional Background: Born and raised in NC, worked in fast food, then as a pediatric medical assistant. Now as a contractor for an AI group. I studied at FTCC and now UNCC </li>
-			<li>Academic Background: I mean...highschool and now my second college campus at UNCC </li>
-			<li>Background in subject matter of the course: uh...none. Hence why I'm in the first class for it </li>
-			<li>Primary Computer Platform: Windows 10, because Apple wants to make it as hard for people as possible to get anything done </li>
-			<li>Courses I'm in and why:
-				<ul>
-					<li>ITCS 3160 - DataBase Design and Implementation - I am required to take it to continue in my degree</li>
-					<li>ITIS 3135 - Web App Design and Development - I am also required to take this </li>
-					<li>MATH 1242 - Calculus II - because the school hates people who are in STEM that aren't engineers or mathematicians </li>
-					<li>ITIS 3200 - Intro to Privacy and Security - I am concentrating in Cybersecurity, so that's kind of important </li>
-					<li>ITSC 3146 - Intro to Operating Systems and Networking - OS is an important part of keeping things secure, given that methods may change for each </li>
-				</ul>  
-			</li>
-			<li> Funny story: 
-				 one time I got blindsided on asphalt because a guy thought I took his pringles (I didn't) </li>
+			<tr>
 				
-			<li> I would like to share: 
-				 I'm having to learn 3 new programming languages this semester. 
-			</li>
-		</ul>
+				<td rowspan="3"><b>Marketing Officer</b></td>
+				<td>Stephen Malone</td>
+				<td>malones@gmail.com</td>
+				<td class="right">21</td>
+				<td>76,500</td>
+			</tr>
+			
+			<tr>
+				
+				<td>James Rivera</td>
+				<td>riveraj@outlook.com</td>
+				<td class="right">18</td>
+				<td>70,700</td>
+			</tr>
+			<tr>
+				
+				<td>Bob Smith</td>
+				<td>bobsmith122@bobco.net</td>
+				<td class="right">9</td>
+				<td>61,500</td>
+			</tr>
+			<tr>
+				<td rowspan="2"><b>Competitive Musical Chairists</b></td>
+				<td>Marquise Blackston</td>
+				<td>mb@blackstone.com</td>
+				<td class="right">7</td>
+				<td>1,000,000</td>
+			</tr>
+			<tr>
+				
+				<td>Randy Travis</td>
+				<td>realrandytravis@music.com</td>
+				<td class="right">33</td>
+				<td>7,430,123</td>
+			</tr>
+			<tr>
+				<td><b>Janitorial Head</b></td>
+				<td>Paddy Quinones</td>
+				<td>PsAndQs@hotmail.com</td>
+				<td class="right">1</td>
+				<td>120</td>
+			</tr>
+			
+			<tr>
+				<td rowspan="2"><b>BOB</b> (dont ask)</td>
+				<td>Bob Johnson</td>
+				<td>johnBobson@bobjohn.com</td>
+				<td class="right">0.5</td>
+				<td>43,999</td>
+			</tr>
+			
+			<tr>
+				
+				<td>Bob wilkins</td>
+				<td>wilkinsb@bobjohn.com</td>
+				<td class="right">11</td>
+				<td>43,999</td>
+			</tr>
+			
+			
+			
+			
+		</tbody>
 		
-		</main>
-		
-		<footer>
-				<br/>
-				<nav>
-					<a href = "http://webpages.uncc.edu/jtreese" target="_blank"> Charlotte Webpage </a> &#9553;
-					<a href = "https://github.com/jtreeseuncc" target="_blank"> Github </a> &#9553;
-					<a href = "https://github.com/jtreeseuncc/jtreeseuncc.github.io" target="_blank"> Github.io </a> &#9553;
-					<a href = "https://jtreeseuncc.github.io/itis3135/" target="_blank"> Github ITIS 3135 page </a> &#9553;
-				</nav>
-				<br />
-				<p>
-					Page built by Jake(s made up company that makes webpages)
+		<tfoot>
+		<tr>
+				<th colspan="3">Total Years of Service</th>
+				<th>132</th>
+				<th>9,226,941</th>
+		</tr>
+		</tfoot>
+	</table>
+	
+	<p>
+					Page built by Jake(s made up company that makes webpages and is very professional)
 				</p>
-				<a href="https://validator.w3.org/check?uri=referer">
+	
+	
+	<footer>
+		<a href="https://validator.w3.org/check?uri=referer">
 					<img src="images/button-valid-html5.gif" width="88" height="31" alt="Link to HTML validator">
 				</a>
 				
 				<a href="https://jigsaw.w3.org/css-validator/check/referer">
 					<img src="images/button-valid-css.gif" width="88" height="31" alt="Link to CSS validator">
 				</a>
-		
-		</footer>
-		
-	</body>
+	</footer>
+</body>
 	
 </html>
