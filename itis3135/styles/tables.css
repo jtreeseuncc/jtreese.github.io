@@ -1,19 +1,18 @@
 
-
-
 body
 {
 	font-family: Lucida Console, Courier New, Monaco;
 	width: 750px;
-	margin: 0 auto;
+	margin: 10px;
 	background-color: silver;
+	text-align: center;
+	margin-left: 400px;
 }
 
 table
 {
 	
-	border-collapse: collapse;
-	
+	justify-content: center;
 	margin: 20px;
 }
 
@@ -22,12 +21,22 @@ thead
 	
 	background-color: lightyellow;
 }
+
 tfoot
 {
 	background-color:lightyellow;
 }
 
-th, td
+th
+{
+	border: 1px solid black;
+	padding: .2em 1em .2em .5em;
+	text-align: left;
+	vertical-align: middle;
+}
+
+
+td
 {
 	border: 1px solid black;
 	padding: .2em 1em .2em .5em;
@@ -40,6 +49,7 @@ th, td
 	text-align: right;
 }
 
+
 tbody tr:nth-child(odd) td
 {
 	background-color: maroon;
@@ -49,7 +59,6 @@ tbody tr:nth-child(even) td
 {
 	background-color: pink;
 }
-
 h3
 {
 	color: white;
@@ -80,9 +89,8 @@ a:hover
 
 header
 {
-	margin-top: 20px;
+	margin-top: 25px;
 	font-weight: bold;
-	color: aqua !important;
 	text-align: center;
 	
 	

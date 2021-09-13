@@ -1,36 +1,53 @@
 body
 {
-	font-family: tahoma;
+	font-family: Monospace, Lucida Console;
 	color: darkred ;
 	background-color: silver;
-	margin-left: 75px;
-	margin-right: 75px;
+	margin-left: 100px;
+	margin-right: 100px;
 }
 
 header
 {
-	margin-top: 75px
+	margin-top: 200px;
 	text-align: center;
 }
 
-h1, h2, h3
+h1
 {
-	font-family: Cambria, Cochin, Georgia, serif;
+	font-size: 50px;
+	font-family: Monospace;
 	text-align: center;
 	line-height: 0px;
+	padding: 0px;
+}
+h2
+{
+	font-family: Lucida Console;
+	text-align: center;
+	line-height: 0px;
+}
+h3{
+	font-family: Monaco;
+	text-align: center;
+	line-height: 0px;
+	
+	
 }
 
 a
 {
+	font-size: 25px;
 	text-decoration: none;
 	color: yellow;
 	font-weight: bold;
+	padding: 15px;
 }
 
 a:hover
 {
 	text-decoration: underline;
-	color: aqua;
+	color: orange;
 }
 
 

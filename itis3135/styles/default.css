@@ -1,28 +1,48 @@
 body
 {
-	font-family: tahoma;
+	font-family: Helvetica, sans-serif;
 	color: lightblue ;
 	background-color: olive;
-	margin-left: 75px;
-	margin-right: 75px;
+	margin-left: 100px;
+	margin-right: 100px;
 }
 
-header, footer
+header
 {
 	text-align: center;
 }
 
-h1, h2, h3
+
 {
-	font-family: Cambria, Cochin, Georgia, serif;
+	font-family: "Lucida Console", "Courier New", monospace;
+	text-align: center;
+	line-height: 5px;
+}
+h1
+{
+	font-family: Lucida Console;
+	text-align: center;
+	line-height: 0px;
+	
+}
+h2
+{
+	font-family: Courier New;
 	text-align: center;
 	line-height: 0px;
 }
-
+h3{
+	font-family: monospace;
+	text-align: center;
+	
+	
+	
+}
 a
 {
+	
 	text-decoration: none;
-	color: mediumseagreen;
+	color: #2c7055;
 	font-weight: bold;
 }
 
@@ -45,4 +65,10 @@ figcaption
 nav
 {
 	text-align: center;
+}
+
+footer
+{
+	text-align: center;
+	
 }
