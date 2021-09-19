@@ -1,0 +1,49 @@
+body
+{
+	background-color: white;
+}
+	
+.font2
+{
+	font-family: 'Comic Sans MS';
+}
+
+h1
+{
+	
+	
+	font-family: Papyrus, fantasy;
+}
+.font1
+{
+	
+	font-family: 'Times New Roman';
+}
+
+ul{
+	text-align: center;
+}
+
+p
+{
+	
+	color: #f5ea4c;
+	font-family: Papyrus;
+	text-align: center;
+	margin-left: 400px;
+	text-decoration: black underline;
+	background-color: #fafad9;
+}
+
+h3
+{
+	
+	border-bottom: 400px solid yellow;
+	border-top:20px dashed green;
+	border-left: 9px dotted cyan;
+	
+}
+h3.font1{
+	font-family: 'Comic Sans MS';
+	font-size: 90px;
+}
