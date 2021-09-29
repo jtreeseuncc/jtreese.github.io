@@ -1,4 +1,3 @@
-
 body
 {
 	font-family: Lucida Console, Courier New, Monaco;
@@ -12,7 +11,7 @@ body
 table
 {
 	
-	justify-content: center;
+	
 	margin: 20px;
 }
 
@@ -94,4 +93,16 @@ header
 	text-align: center;
 	
 	
+}
+
+.oddcolor
+{
+	background-color: maroon;
+	
+}
+
+.evencolor
+{
+	
+	background-color: pink;
 }

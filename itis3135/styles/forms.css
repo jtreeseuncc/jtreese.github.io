@@ -25,7 +25,9 @@ h2
 {
 	text-align: center;
 	padding: 10px;
+	padding-bottom: 0px;
 	color: red;
+	font-size: 30px;
 	
 }
 
@@ -101,6 +103,19 @@ input[type=text] {
 	padding: 25px;
 	padding-left: 0px;
 	
+}
+.caffeine
+{
+	
+	width: 15%;
+	margin: auto;
+	padding: 15px;
+	
+	
+}
+.label-for-boxes{
+	font-weight: bold;
+	text-align: center;
 }
 footer
 {

@@ -4,7 +4,7 @@
 
 	<head>
 	<meta charset="UTF-8"/>
-	<link href = "styles/forms.css" rel ="stylesheet" type="text/css">
+	<link href = "styles/default.css" rel ="stylesheet" type="text/css">
 	
 	<title> Jake Treese, 3135, Forms</title>		
 	</head>
@@ -14,15 +14,16 @@
 	<body>
 	<header>
 		<a href="https://webpages.uncc.edu/jtreese/itis3135/index.html"> Main Menu</a>
+		<h1> Jake Treese, 3135</h1>
+		<h2> Bean Bros Coffee Shoppe</h2>
+		<h5> We have hot bean juice!</h5>
 	</header>
 	<main>
-	<h1> Bean Bros Coffee </h1>
 	
-	<h2> Newsletter and Coupons </h2>
 	<hr>
 	<h3> Thank you for expressing interest in us, please fill out this form with your responses</h3>
 	
-	<form>
+	<form action ="#">
 	
 	 <h4>Do you want to receive our newsletter and great deals???</h4> 
 	
@@ -43,7 +44,7 @@
 	
 	<div class="location">
 	
-    <label for="location">Which location do you frequent: </label>
+    <label for="location"><b>Which location do you frequent: </b></label>
 	 
 	<select name="location" id="location" size="1" >
 	
@@ -60,11 +61,33 @@
     </div>
 	
 	
+	<div class="label-for-boxes">How much Caffeine do you like?</div>
+	
+	<div class="caffeine" >
+	
+		<input type="checkbox" id="lowCaff" name="lowCaff" value="Decaf">
+	
+		<label for="lowCaff"> I like no caffeine!</label><br>
+	
+		<input type="checkbox" id="normalCaff" name="normalCaff" value="Caffeine">
+	
+		<label for="normalCaff"> I like normal coffee!</label><br>
+	
+		<input type="checkbox" id="highCaff" name="highCaff" value="LotsOfCaff">
+		
+		<label for="highCaff"> I like to see sounds!</label><br>
+		
+		<input type="checkbox" id="noPref" name="noPref" value="NoPreference">
+		
+		<label for="noPref">I have no preference.</label><br>
+		
+	
+	</div>
 	
 	
 	<div class="text-boxes">
 	
-	<label> Contact Information </label>
+	<label><b> Contact Information </b></label>
 	
 	<p><input type="text" placeholder="Name"></p>
 	
@@ -75,7 +98,7 @@
 	
 	
 	<div class="submit">
-	<button type="submit">Submit</button>
+	<button id="button1" type="submit" >Submit</button>
 	</div>
 	
 	
@@ -86,11 +109,11 @@
 	
 	
 	<footer>
-		<a href="https://validator.w3.org/check?uri=referer">
+		<a href="https://validator.w3.org/check?uri=referer" class="noUL">
 					<img src="images/button-valid-html5.gif" width="88" height="31" alt="Link to HTML validator">
 				</a>
 				
-				<a href="https://jigsaw.w3.org/css-validator/check/referer">
+				<a href="https://jigsaw.w3.org/css-validator/check/referer" class="noUL">
 					<img src="images/button-valid-css.gif" width="88" height="31" alt="Link to CSS validator">
 				</a>
 	</footer>
