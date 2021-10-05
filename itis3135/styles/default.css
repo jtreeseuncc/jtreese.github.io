@@ -2,7 +2,7 @@ body
 {
 	font-family: monospace;
 	color: lightblue;
-	background-color: olive;
+	background-color: #8F8D6A;
 	margin-top: 50px;
 	margin-left: 100px;
 	margin-right: 100px;
@@ -13,7 +13,7 @@ body
 header
 {
 	text-align: center;
-	padding: 5px;
+	margin: auto;
 }
 
 h1
@@ -59,6 +59,7 @@ a
 	text-decoration: underline;
 	color: #4bd927;
 	font-weight: bold;
+	text-align: center;
 }
 
 a:hover
@@ -72,7 +73,7 @@ a:hover
 
 nav
 {
-	text-align: center;
+	
 	text-align: center;
 }
 
@@ -217,4 +218,45 @@ table{
 .noUL:hover
 {
 	text-decoration: none;
+}
+
+.centered
+{
+	margin: auto;
+	width: 100%;
+	
+}
+
+p{
+	margin: auto;
+	width: 50%;
+}
+
+.headingFont
+{
+	margin-left: 0px;
+	margin-right: 0px;
+	font-size: 15px;
+}
+.polygonForm
+{
+	text-align: center;
+	margin: auto;
+	width: 50%;
+}
+
+.introPicture
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.trybuttons
+{
+	width: 5%;
+	margin-bottom: 5px;
+	font-weight: 900;
+	padding: 5px;
 }

@@ -2,10 +2,12 @@
 
 <html lang ="en">
 	<head>
+	
 	<meta charset="UTF-8"/>
 	<link href = "styles/default.css" rel ="stylesheet" type="text/css">
+	<script src="scripts/polygon.js"></script>
+	<title> Jake Treese, ITIS 3135, Polygon Picker</title>	
 	
-	<title> Jake Treese, ITIS 3135, Pagename</title>		
 	</head>
 	
 	<body>
@@ -13,8 +15,8 @@
 		
 		<header><h1>Jake Treese --> ITIS 3135</h1>
 		
-			
 			<nav class="headingFont">
+			
 				<a href="https://webpages.uncc.edu/jtreese/itis3135/introduction.html">About Me</a> &#9829;
 			 
 				<a href="https://github.com/jtreeseuncc/jtreeseuncc.github.io">Github</a> &#9829;
@@ -32,44 +34,27 @@
 				<a href="https://webpages.uncc.edu/jtreese/itis3135/first-scripts.html">First Script Page</a> &#9829;
 				
 				<a href="https://webpages.uncc.edu/jtreese/itis3135/polygonpicker.html">Polygon Picker</a>
-				
+					
 			</nav>
 
-	</header>
+		</header>
 	
-	
-		
 		<main>
-			<h2>Introduction</h2>
+			<h2>Polygon Picker</h2>
+			<h5>Sides and Shapes!</h5>
 			
-			<figure>
-					<p><a href="images/thisisfine.png"></a></p>
-						<img src="images/thisisfine.png" alt = "sadness" width="400" height="250" class="introPicture"/>
-					
-					<figcaption>this is a visual representation of my sanity during covid </figcaption>
-			</figure>
-		<ul>
-			<li>Professional Background: Born and raised in NC, worked in fast food, then as a pediatric medical assistant. Now as a contractor for an AI group. I studied at FTCC and now UNCC </li>
-			<li>Academic Background: I mean...highschool and now my second college campus at UNCC </li>
-			<li>Background in subject matter of the course: uh...none. Hence why I'm in the first class for it </li>
-			<li>Primary Computer Platform: Windows 10, because Apple wants to make it as hard for people as possible to get anything done </li>
-			<li>Courses I'm in and why:
-				<ul>
-					<li>ITCS 3160 - DataBase Design and Implementation - I am required to take it to continue in my degree</li>
-					<li>ITIS 3135 - Web App Design and Development - I am also required to take this </li>
-					<li>MATH 1242 - Calculus II - because the school hates people who are in STEM that aren't engineers or mathematicians </li>
-					<li>ITIS 3200 - Intro to Privacy and Security - I am concentrating in Cybersecurity, so that's kind of important </li>
-					<li>ITSC 3146 - Intro to Operating Systems and Networking - OS is an important part of keeping things secure, given that methods may change for each </li>
-				</ul>  
-			</li>
-			<li> Funny story: 
-				 one time I got blindsided on asphalt because a guy thought I took his pringles (I didn't) </li>
-				
-			<li> I would like to share: 
-				 I'm having to learn 3 new programming languages this semester. 
-			</li>
-		</ul>
-		
+			<form name="myForm" class="polygonForm">
+			<input type="text" name="shapeSide">
+			<input type="button" value="Submit" onclick="getShape()">
+			</form>
+			<br>
+			<p><b> Your Polygon is a:</b></p>
+			<br>
+			<p id="output">Please Input a NUMBER from 1 to 10!</p>
+			
+			
+			
+			
 		</main>
 		
 		<footer>
@@ -82,7 +67,7 @@
 					<a href="https://www.freecodecamp.org/jtreese/" target="_blank">freeCodeCamp</a> 
 				</nav>
 		
-				<p>Page built by Jaundiced Tapir)</p>
+				<p>Page built by Jaundiced Tapir</p>
 			<br>
 				
 				<a href="https://validator.w3.org/check?uri=referer" class="noUL">

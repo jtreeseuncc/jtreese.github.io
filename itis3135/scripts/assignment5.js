@@ -12,11 +12,12 @@ var todaysDate = (rightnow.getMonth()+1) + " " + rightnow.getDate() + ", " + rig
 
 var currentTime = rightnow.getHours() + ":" + rightnow.getMinutes();
 
-document.write("Today is: " + todaysDate + ", and the time is: " + currentTime + "<br><br>");
+document.getElementById("writing").innerHTML = "Today is: " + todaysDate + ", and the time is: " + currentTime + "<br><br>";
 
-document.write(BRAND + " welcomes you " + name + "!<br><br>");
+document.getElementById("writing").innerHTML = BRAND + " welcomes you " + name + "!<br><br>";
 
-document.write("We are either glad or sorry that you are doing: " + howDo + "!<br>");
+document.getElementById("writing").innerHTML = "We are either glad or sorry that you are doing: " + howDo + "!<br>";
+
 
 
 function loveMe()

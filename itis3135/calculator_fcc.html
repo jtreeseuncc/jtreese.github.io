@@ -1,0 +1,135 @@
+<! Academic Integrity Code:
+	This is monstly not mine it is a tutorial i followed from https://www.javatpoint.com/javascript-calculator
+	.My attempt was uploaded as calculator_try and I had little success/
+	I am making no claim that this is all my own work, i simply followed the instructions and followed what the activity guide said to do, but with a different tutorial.
+	This is my signature assuring that I cited my source for the assignment and am not trying to pass off someone else's code for my own. 
+	- Jake Treese	
+>
+
+
+<!DOCTYPE html>
+
+<html lang ="en" dir="ltr">
+	<head>
+	
+		<meta charset="UTF-8"/>
+		<link href = "styles/calculator_fcc.css" rel ="stylesheet" type="text/css">
+		<script src="scripts/calculator_fcc.js"></script>
+		<title> Jake Treese, ITIS 3135, Calculator Tutorial</title>
+
+	</head>
+	
+	<body>
+		
+		
+		<header>
+		
+			<h1>Jake Treese --> ITIS 3135</h1>
+		
+			<nav class="headingFont">
+			
+				<a href="https://webpages.uncc.edu/jtreese/itis3135/introduction.html">About Me</a> &#9829;
+			 
+				<a href="https://github.com/jtreeseuncc/jtreeseuncc.github.io">Github</a> &#9829;
+					
+				<a href="https://webpages.uncc.edu/jtreese/itis3135/tables.html">Tables Project</a> &#9829;
+				 
+				<a href="https://webpages.uncc.edu/jtreese/itis3135/forms.html">Forms Project</a> &#9829;
+
+				<a href="https://webpages.uncc.edu/jtreese/itis3135/website_evaluations.html">Website Comparison</a> &#9829;
+
+				<a href="https://webpages.uncc.edu/jtreese/itis3135/stuff/PROFREMS10N@L FIL3.htm">I am very sorry for this (CRAPPY WEBSITE)</a> &#9829;
+
+				<a href="https://webpages.uncc.edu/jtreese/itis3135/brand-jaundiced-tapir.html">    Brand: Jaundiced Tapir</a> &#9829;
+
+				<a href="https://webpages.uncc.edu/jtreese/itis3135/first-scripts.html">First Script Page</a> &#9829;
+
+				<a href="https://webpages.uncc.edu/jtreese/itis3135/polygonpicker.html">Polygon Picker</a> &#9829;
+
+				<a href="https://webpages.uncc.edu/jtreese/itis3135/calculator_fcc.html">Tutorial Calculator</a> &#9829;
+
+				<a href="https://webpages.uncc.edu/jtreese/itis3135/calculator_try.html">Calculator Try </a>
+
+					
+			</nav>
+
+		</header>
+		
+		<main>
+			<h2> Calculator Tutorial Project</h2>
+			<div class= "formstyle">  
+				<form name = "form1">  
+					<input class= "textview" name = "textview">  
+				</form>  
+				<center>  
+					<table >  
+						<tr>   
+							<td> <input class = "btn" type = "button" value = "C" onclick = "form1.textview.value = ' ' " > </td>  
+							<td> <input  class = "btn" type = "button" value = "B" onclick = "backspace()" > </td>  
+							<td> <input  class = "btn" type = "button" value = "/" onclick = "insert('/')" > </td>  
+							<td> <input class = "btn" type = "button" value = "x" onclick = "insert('*')" > </td>  
+						</tr>  
+					  
+						<tr>   
+							<td> <input class = "btn" type = "button" value = "7" onclick = "insert(7)" > </td>  
+							<td> <input class = "btn" type = "button" value = "8" onclick = "insert(8)" > </td>  
+							<td> <input class = "btn" type = "button" value = "9" onclick = "insert(9)" > </td>  
+							<td> <input class = "btn" type = "button" value = "-" onclick = "insert('-')" > </td>  
+						</tr>  
+					  
+						<tr>   
+							<td> <input class = "btn" type = "button" value = "4" onclick = "insert(4)" > </td>  
+							<td> <input class = "btn" type = "button" value = "5" onclick = "insert(5)" > </td>  
+							<td> <input class = "btn" type = "button" value = "6" onclick = "insert(6)" > </td>  
+							<td> <input class = "btn" type = "button" value = "+" onclick = "insert('+')" > </td>  
+						</tr>  
+					  
+						<tr>   
+							<td> <input class = "btn" type = "button" value = "1" onclick = "insert(1)" > </td>  
+							<td> <input class = "btn" type = "button" value = "2" onclick = "insert(2)" > </td>  
+							<td> <input class = "btn" type = "button" value = "3" onclick = "insert(3)" > </td>  
+							<td rowspan = 5> <input class = "btn" style = "height: 110px" type = "button" value = "=" onclick = "equal()"> </td>  
+						</tr>  
+						
+						<tr>  
+							<td colspan = 2> <input class = "btn" style = "width: 106px" type = "button" value = "0" onclick = "insert(0)" > </td>  
+							<td> <input class = "btn" type = "button" value = "." onclick = "insert('.')"> </td>  
+						</tr> 
+						
+					</table>  
+					
+				</center> 
+				
+			</div>  
+ 
+  
+		</main>
+		
+	<footer>
+		<br>
+		
+		<nav>
+			<a href="http://webpages.uncc.edu/jtreese/" target="_blank">Charlotte.edu</a> &#9829;
+			<a href="https://github.com/jtreeseuncc" target="_blank">Github</a> &#9829;
+			<a href="https://jtreeseuncc.github.io/" target="_blank">Github.io</a> &#9829;
+			<a href="https://jtreeseuncc.github.io/itis3135/" target="_blank">ITIS 3135 Github Pages</a> &#9829;
+			<a href="https://www.freecodecamp.org/jtreese/" target="_blank">freeCodeCamp</a> 
+		</nav>
+			
+		<p>Page built by Jaundiced Tapir</p>
+		
+		<br>
+					
+		<a href="https://validator.w3.org/check?uri=referer" class="noUL">
+			<img src="images/button-valid-html5.gif" width="88" height="31" alt="Link to HTML validator">
+		</a>
+					
+		<a href="https://jigsaw.w3.org/css-validator/check/referer" class="noUL">
+			<img src="images/button-valid-css.gif" width="88" height="31" alt="Link to CSS validator">
+		</a>
+			
+	</footer>
+	
+	</body>
+	
+</html>
