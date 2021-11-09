@@ -236,7 +236,7 @@ p{
 {
 	margin-left: 0px;
 	margin-right: 0px;
-	font-size: 15px;
+	font-size: 10px;
 }
 .polygonForm
 {
@@ -259,4 +259,91 @@ p{
 	margin-bottom: 5px;
 	font-weight: 900;
 	padding: 5px;
+}
+
+#results
+{
+	font-size: 15px;
+	text-align: center;
+}
+
+.arrayButtons
+{
+	margin: auto;
+	text-align: center;
+	
+}
+
+#resultsHeader
+{
+	font-size: 25px;
+}
+
+#results_table
+{
+	padding-top: 10px;
+}
+
+.drawiodesign
+{
+	margin-left: 0px;
+	margin-right: 0px;
+	display: block;
+	text-align: center;
+}
+.rb
+{
+	margin: auto;
+	text-align: center;
+}
+/* References in this CSS
+
+Traversy Media
+https://www.youtube.com/watch?v=J2HLW4A40X8
+
+*/
+.container
+{
+	width: 1040px;
+	display: block;
+	text-align: center;
+	margin: auto;
+	overflow: auto;
+}
+
+.inner-slider
+{
+	
+	width: 1000px;
+	height: 600px;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	border: lightblue solid 3px;
+	text-align: center;
+}
+
+.inner-slider img
+{
+	width: 1000px;
+	height: 600px;
+}
+
+.photolist
+{
+	margin: 75px;
+}
+
+#slideShowButton
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.clickable:hover
+{
+	cursor: pointer;
+	transform: scale(1.15);
+	border: 3px solid lightblue;
 }

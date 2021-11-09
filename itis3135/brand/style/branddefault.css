@@ -1,0 +1,223 @@
+
+body
+{
+	font-family: monospace;
+	background-color: #CBBFBB;
+	margin-left: 75px;
+	margin-right: 75px;
+	border-style: solid;
+	border-color: #A0B2A6; 
+	border-width: 5px;
+	
+}
+p
+{
+	margin-left: 100px;
+	margin-right: 100px;
+}	
+
+	
+h1
+{
+	color: #483248;
+	text-align: center;
+	margin-top: 10px;
+	font-size: 30px;
+}
+			
+h2
+{
+	color: #483248;
+	text-align: center;
+	font-size: 20px;
+				
+}
+h3
+{
+	text-align: center;
+	
+}
+
+h5
+{
+	text-align: left;
+	font-size: 15px;
+	margin-left: 100px;
+	margin-right: 100px;
+				
+}
+a
+{
+	font-weight: 700;
+	text-align: center;
+	display: inline-block;
+	font-size: 15px;
+	text-decoration: underline dashed;
+	 padding-right: 5px
+}
+.centerLogo
+{
+	display: block;
+	margin-top: -5px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	background-color: #A0B2A6;
+	border: solid black 3px;
+	
+}
+p
+{
+	font-weight: 900;
+	font-size: 15px;
+	text-align: left;
+}
+ul 
+{
+	list-style-type: kannada;
+}
+footer
+{
+	text-align: center;	
+	padding: 10px;
+}
+.radios
+{
+	text-align: center;
+	padding: 10px;
+	background-color: #A0B2A6; 
+}
+.reason
+{
+	text-align: center;
+	padding: 10px;
+}
+
+.text-boxes
+{
+	text-align: center;
+	padding: 10px;
+	background-color: #A0B2A6; 
+}
+
+.check-boxes
+{
+	margin-left: 400px;
+	text-align: left;
+	padding: 10px;
+}
+
+.submit
+{
+	text-align: center;
+	padding: 10px;
+	background-color: #A0B2A6;
+}
+
+.info_main
+{
+	margin-top: 3px;
+	margin-bottom: 3px;
+	background-color: #A0B2A6;
+
+}
+
+input[type=text] {
+   
+    text-align: center;
+    
+}  
+
+a:hover
+{
+	color: #426969;
+ }
+ ul
+ {
+	 margin-left: 85px;
+ }
+ 
+ .fade-in-image 
+ {
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+  -o-animation: fadeIn 4s;
+  -ms-animation: fadeIn 4s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+.fade-in-text {
+  
+  animation: fadeIn linear 2s;
+  -webkit-animation: fadeIn linear 2s;
+  -moz-animation: fadeIn linear 2s;
+  -o-animation: fadeIn linear 2s;
+  -ms-animation: fadeIn linear 2s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+nav
+{
+	text-align: center;
+}
+#footing
+{
+	margin-top: -10px;
+}
+
+.center-boxes
+{
+	text-align: center;
+}
+#userInfo
+{
+	margin: auto;
+	width: 50%
+}

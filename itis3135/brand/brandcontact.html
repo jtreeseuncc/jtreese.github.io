@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title> Brand Web Page, ITIS 3135 </title>
+		<meta charset="UTF-8"/>
+		<link href = "style/branddefault.css" rel ="stylesheet" type="text/css">
+		<script src="scripts/w3.js"></script>
+		<script src="scripts/jquery-3.6.0.min.js"></script>
+		<script src="scripts/brand.js"></script>
+		
+	</head>
+	
+	
+	
+	<body>
+		
+	
+		<div w3-include-html="components/header.html" id="heading">
+			
+		</div>
+	
+		<script>
+		w3.includeHTML();
+		</script>
+	
+	
+	
+	<h2> Contact Us</h2>
+	<p>
+	Please feel free to contact us. Just put in your contact info and we will reach out. Make sure you fill out the form in its entirety!
+	</p>
+	<form id="userform">
+	<h3>Do you want to receive emails containing our newsletter?</h3>
+	<div class="radios">
+	
+	
+	<label for="yes"> 
+	
+		<input id="yes" type="radio" name="yes-no" value="yes" required>Yes!
+  
+	</label>
+	
+	<label for="no">
+	
+		<input id="no" type="radio" name="yes-no"> No :(
+	
+	</label>
+	</div>
+	
+	
+	<div class="reason">
+	
+    <label for="userSelect"><b>Why did you want to contact us:</b></label>
+	 
+	<select id="userSelect" name="reason"  size="1" >
+	
+         <option value="Get More Info">To get more information about us</option>
+		 
+         <option value="Work With Us">To see about working with us</option>
+		 
+         <option value="Get Services">To request our services</option>
+		 
+         <option value="Other">Other (we will ask when we contact you)</option>
+		 
+    </select>
+	
+    </div>
+	<h3>How would you like us to contact you?</h3>
+	<div class="check-boxes">
+	
+	
+	
+	
+		<input id="checkEmail" type="checkbox" name="byEmail" value="Email">
+	
+		<label  for="checkEmail">Email</label><br>
+	
+		<input id="checkCall" type="checkbox" name="phoneCall" value="Call">
+	
+		<label for="checkCall">Phone Call</label><br>
+	
+		<input id="checkText" type="checkbox" name="SMS" value="Text">
+		
+		<label for="checkText">Text (standard rates apply)</label><br>
+		
+		<input id="checkNopref" type="checkbox" name="noPref" value="No Preference" required>
+		
+		<label for="checkNopref">By clicking this you agree to be contacted in any way selected above (one will be chosen if none are selected)</label><br>
+		
+	
+	</div>
+
+	<div class="text-boxes">
+	
+	<label><b> Contact Information </b></label>
+	
+	<p class="center-boxes"><input id="userName" type="text" placeholder="Name" required></p>
+	
+	<p class="center-boxes"><input id="userPhone" type="text" placeholder="Phone Number" required></p>
+	
+	<p class="center-boxes"><input id="userEmail" type="text" placeholder="Email Address" required></p>
+	
+	</div>
+	
+	<div class="submit">
+	
+	<button id="button1" type="submit" onclick="displayData()" onsubmit="return false">Submit</button>
+	
+	</div>
+	
+	</form>
+	
+	
+	
+	<div id="userInfo">
+		<p id="printInfo"></p>
+	</div>
+	
+	
+	
+	<div w3-include-html="components/footer.html" id="footing">
+		
+	</div>
+	
+	</body>
+	
+	
+
+	
+</html>
