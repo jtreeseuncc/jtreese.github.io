@@ -7,30 +7,69 @@
 		<title>Java Lessons</title>	
 		<link href = "styles/project.css" rel ="stylesheet" type="text/css">
 		<script src="scripts/w3.js"></script>
+		<script src="scripts/pdfobject.js"></script>
 		<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+		<script src="scripts/project.js"></script>
+		<script type="module">
+			import { Fancybox } from "https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.esm.js";
+		</script>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+		
+		
 		
 		
 	</head>
 
 	<body>
-	
+		<div id="page-container">
+		<div id="content-wrap">
 		<div w3-include-html="content/heading.html" id="headingDiv">
-		<header>
 		
-		</header>
 		</div>
 		
 		<script>
 			w3.includeHTML();
 		</script>
-		<div w3-include-html="content/lessonsContent.html">
+		
+		
+	<main>	
+	
+		<h2 style="text-align: center"> 
+		Lessons
+		</h2>
+		<p id="paragraphText">
+			Some material for you to go through, study, and learn. They go hand in hand with the videos on this site!
+		</p>
+		<div id="lessonButtons">
+		
+			<a href="#">Lesson 1</a>
+			<a href="#">Lesson 2</a>
+			<a href="#">Lesson 3</a>
+			
 		
 		</div>
-		<div id="footingDiv">
-		<footer>
+	
+	
+		<div id="lessonContent">
 		
-		</footer>
 		</div>
+		
+		<div id="embeddedPDF">
+		
+		</div>
+		
+		
+	</main>
 
-</body>
+		
+		<div w3-include-html="content/footer.html" id="footingDiv">
+		
+		</div>
+	</div>
+	</div>
+	
+	
+	</body>
+	
+	
 </html>

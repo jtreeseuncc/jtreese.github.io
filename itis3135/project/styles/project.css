@@ -2,14 +2,18 @@ body
 {
 	background-color: #F4F0DB;
 	width: 100%;
-  padding: 0px;
-  margin: 0px;
-  overflow-x: hidden;
+	padding: 0px;
+	margin: 0px;
+	overflow-x: hidden;
+	min-height: 100vh;
+  
 }
 h1
 {
 	text-align: center;
 	font-size: 50px;
+	color: white;
+	
 }
 
 h2
@@ -26,24 +30,19 @@ h2
 	margin-right: 100px;
 	font-weight: 600;
 	font-size: 20px;
+	font-family: Helvetica;
+	margin-bottom: 10px;
 }
 li
 {
 	font-weight: 500;
 }
-header
-{
-	font-family: Optima;
-	margin-top: 20px;
-	
-	
-}
+
 #headingStyle
 {
 	
 	font-weight: bold;
 	font-size: 30px;
-	
 	display: flex;
 	justify-content: space-evenly; 
 	width: 100%;
@@ -53,16 +52,40 @@ header
 	padding-right: 5px;
 }
 
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    
+}
+
 #footingDiv
 {
 	font-family: Helvetica;
 	background-color: #046a38;
 	text-align: center;
-	padding-bottom: 20px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 8rem;            
+
+}
+#footingDiv2
+{
+	font-family: Helvetica;
+	background-color: #046a38;
+	text-align: center;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	height: 8rem;            
+
 }
 #footTagline
 {
-	color: #B3A369;
+	color: #c9b877;
 	font-family: Helvetica;
 }
 
@@ -73,7 +96,7 @@ header
 
 a
 {
-	color: #B3A369;
+	color: #c9b877;
 	padding: 10px;
 }
 
@@ -82,11 +105,6 @@ a:hover
 	color: #fffb8a;
 }
 
-#images
-{
-	text-align: center;
-	
-}
 a.aStyle
 {
 	color: #483248;
@@ -106,3 +124,135 @@ p.resourceStyle
 	text-align: left;
 	font-weight: bold;
 }
+
+.validationLinks
+{
+	text-decoration: underline overline;
+	font-weight: bold;
+	font-family: Bookman;
+}
+
+
+#lessonButtons 
+{
+	margin-left: 100px;
+	margin-right: 100px;
+	font-size: 25px;
+	font-weight: bold;
+	padding: 5px;
+	
+}
+#lessonButtons a
+{
+	color: green;
+}
+
+#lessonButtons a:hover
+{
+	color: red;
+}
+
+#foundationButtons 
+{
+	margin-left: 100px;
+	margin-right: 100px;
+	font-size: 25px;
+	font-weight: bold;
+	padding: 5px;
+	
+}
+
+#foundationButtons a
+{
+	color: green;
+}
+
+#foundationButtons a:hover
+{
+	color: red;
+}
+
+
+iframe
+{
+	margin: auto;
+	display:block;
+}
+
+#lessonContent
+{
+	
+	text-align: center;
+	
+}
+
+#lessonContent p
+{
+	font-size: 25px;
+	margin-left: 75px;
+	margin-right: 75px;
+	
+}
+#embeddedPDF
+{
+	height: 50vh;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+#embeddedBio
+{
+	height: 100vh;
+	margin-left: 100px;
+	margin-right: 100px;
+	
+}
+
+#videoContent
+{
+	height: 100vh;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#videoButtons 
+{
+	margin-left: 100px;
+	margin-right: 100px;
+	font-size: 25px;
+	font-weight: bold;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: green;
+	
+}
+#videoButtons a
+{
+	color: green;
+}
+#videoButtons a:hover
+{
+	color: red;
+}
+
+#bioText
+{
+	height: 100vh;
+	
+}
+
+#resourcesDiv
+{
+	height: 100vh;
+}
+
+#embeddedFoundation
+{
+	height: 75vh;
+}
+
+#foundationVideo
+{
+	text-align: center;
+}
+

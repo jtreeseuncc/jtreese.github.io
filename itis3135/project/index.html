@@ -7,15 +7,21 @@
 		<title>Java Home</title>	
 		<link href = "styles/project.css" rel ="stylesheet" type="text/css">
 		<script src="scripts/w3.js"></script>
-		<script src="scripts/jquery-3.6.0.min.js"></script>
+		<script src="scripts/pdfobject.js"></script>
+		<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+		<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+		<script src="scripts/project.js"></script>
+		<script type="module">
+			import { Fancybox } from "https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.esm.js";
+		</script>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
 	</head>
 
 	<body>
 		
 		<div  w3-include-html="content/heading.html" id="headingDiv">
-		<header>
 		
-		</header>
 		</div>
 		
 		<script>
@@ -24,9 +30,7 @@
 		
 		<main>
 		
-		<div id="images">
-			<img src="images/david-pupaza-Q9-QEy1_jYI-unsplash.jpg" alt="coding image" width="1600" height="200">
-		</div>
+		
 			
 			<h2> 
 				Welcome to Java
@@ -47,7 +51,7 @@
 			</li>
 			
 			<li>
-				Practice: Take a crack at your knowledge and skills. These are some things to help you work on the dozens of terms, commands, shortcuts and definitions that you will need to know!
+				Videos: These are some videos to help you work on the dozens of terms, commands, shortcuts and definitions that you will need to know! They also correspond with the lessons of the same name.
 			</li>
 			
 			<li>
@@ -68,9 +72,7 @@
 		</main>
 		
 		<div  w3-include-html="content/footer.html"  id="footingDiv">
-		<footer>
 		
-		</footer>
 		</div>
 
 </body>

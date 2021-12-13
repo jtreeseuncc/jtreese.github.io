@@ -7,44 +7,77 @@
 		<title>Java Foundations</title>	
 		<link href = "styles/project.css" rel ="stylesheet" type="text/css">
 		<script src="scripts/w3.js"></script>
-		<script src="scripts/jquery-3.6.0.min.js"></script>
+		<script src="scripts/pdfobject.js"></script>
+		<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+		<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+		<script src="scripts/project.js"></script>
+		<script type="module">
+			import { Fancybox } from "https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.esm.js";
+		</script>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
 	</head>
 
 	<body>
+	<div id="page-container">
+		<div id="content-wrap">
 		<div w3-include-html="content/heading.html" id="headingDiv">
-			<header>
-		
-			</header>
+			
 		</div>
 		
 		<script>
 			w3.includeHTML();
 		</script>
 		
-		</header>
 		
-		<main>
-			<div id="images">
-			<img src="images/david-pupaza-Q9-QEy1_jYI-unsplash.jpg" alt="coding image" width="1600" height="200">
-			</div>
+		
+		<main id="foundationStyle">
 			
-			<h2> 
+			
+			<h2 style="text-align: center"> 
 				Foundations
 			</h2>
-			<div id="paragraphText">
-			<p>
+			
+			<p id="paragraphText">
 				These will be the core of your programming experience, especially if you take class with Professor von Briesen. Here you will go through the actions you can take to start off
 				on the right foot so that you don't shoot yourself in it later.
-				(still working on getting these from prof vB)
+				
 			</p>
+			<div id="foundationButtons">
+		
+			
+		
+			<a href="#">Foundation 1</a>
+			<a href="#">Foundation 2</a>
+			<a href="#">Foundation 3</a>
+			
+			
+			
 			</div>
-		</main>
+		<div id="contentFound">
 		
-		<div  w3-include-html="content/footer.html" id="footingDiv">
-		<footer>
+		<div id="foundationVideo">
 		
-		</footer>
 		</div>
+		
+		
+		
+		<div id="embeddedFoundation">
+		
+		</div>
+		</div>
+			
+			
+			
+			
+		</main>
+		</div>
+		</div>
+		<div  w3-include-html="content/footer.html" id="footingDiv2">
+		
+		</div>
+		
+		
 
 </body>
 </html>
